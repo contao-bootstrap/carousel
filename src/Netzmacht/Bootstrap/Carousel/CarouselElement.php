@@ -9,7 +9,7 @@
  *
  */
 
-namespace Netzmacht\Bootstrap\Components\Contao\ContentElement;
+namespace Netzmacht\Bootstrap\Carousel;
 
 use Netzmacht\Bootstrap\Core\Contao\ContentElement\Wrapper;
 use Netzmacht\Html\Attributes;
@@ -19,7 +19,7 @@ use Netzmacht\Html\Attributes;
  *
  * @package Netzmacht\Bootstrap\Components\Contao\ContentElement
  */
-class Carousel extends Wrapper
+class CarouselElement extends Wrapper
 {
     /**
      * Template name.
