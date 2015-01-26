@@ -24,27 +24,25 @@
         "contao/core":">=3.2,<3.5-dev",
         "contao-bootstrap/core": "~1.0",
         "netzmacht/html": "~1.1",
-        "bit3/contao-meta-palettes":"~1.4",
-        "menatwork/contao-multicolumnwizard":"~3.2"
+        "contao-community-alliance/meta-palettes":"~1.4"
     },
     "require-dev": {
         "netzmacht/contao-build-tools": "1.0.x-dev"
     },
     "conflict": {
-        "netzmacht/contao-bootstrap": "*",
-        "netzmacht/contao-form-helper": "~0.3"
+        "netzmacht/contao-bootstrap": "*"
     },
     "autoload": {
-        "psr-0": { "Netzmacht\\Bootstrap\\Components\\": "src/" }
+        "psr-0": { "Netzmacht\\Bootstrap\\Carousel": "src/" }
     },
     "extra":{
         "contao": {
             "sources":{
-                "module": "system/modules/bootstrap-components"
+                "module": "system/modules/bootstrap-carousel"
             },
             "transifex": {
                 "project": "contao-bootstrap",
-                "prefix": "components-",
+                "prefix": "carousel-",
                 "languages_cto": "module/languages",
                 "languages_tx": ".tx"
             }
