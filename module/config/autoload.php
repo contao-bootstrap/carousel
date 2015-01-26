@@ -10,6 +10,6 @@
  */
 TemplateLoader::addFiles(
     array (
-        'ce_bootstrap_carousel'  => 'system/modules/bootstrap-components/templates',
+        'ce_bootstrap_carousel'  => 'system/modules/bootstrap-carousel/templates',
     )
 );
